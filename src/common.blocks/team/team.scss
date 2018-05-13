@@ -1,0 +1,210 @@
+/* Social Media */
+
+.facebook {
+    background: #3280e7;
+}
+
+.facebook:hover {
+    background: #134fa0;
+}
+
+.twitter {
+    background: #32c8de;
+}
+
+.twitter:hover {
+    background: #188392;
+}
+
+.google-plus {
+    background: #f96f4a;
+}
+
+.google-plus:hover {
+    background: #eb6440;
+}
+
+.linkedin {
+    background: #729fda;
+}
+
+.linkedin:hover {
+    background: #3069b6;
+}
+
+.pinterest {
+    background: #ed5441;
+}
+
+.pinterest:hover {
+    background: #b72411;
+}
+
+.dropbox {
+    background: #32c8de;
+}
+
+.dropbox:hover {
+    background: #188392;
+}
+
+.bitcoin {
+    background: #f8a841;
+}
+
+.bitcoin:hover {
+    background: #cc7607;
+}
+
+.foursquare {
+    background: #22bed4;
+}
+
+.foursquare:hover {
+    background: #146f7c;
+}
+
+.flickr {
+    background: #ff61e7;
+}
+
+.flickr:hover {
+    background: #fa00d4;
+}
+
+.github {
+    background: #666666;
+}
+
+.github:hover {
+    background: #333333;
+}
+
+.instagram {
+    background: #d6917a;
+}
+
+.instagram:hover {
+    background: #b35637;
+}
+
+.skype {
+    background: #32c8de;
+}
+
+.skype:hover {
+    background: #188392;
+}
+
+.tumblr {
+    background: #84a1c8;
+}
+
+.tumblr:hover {
+    background: #476d9f;
+}
+
+.vimeo {
+    background: #32c8de;
+}
+
+.vimeo:hover {
+    background: #188392;
+}
+
+.dribbble {
+    background: #ff2edf;
+}
+
+.dribbble:hover {
+    background: #c700a9;
+}
+
+.youtube {
+    background: #ed5441;
+}
+
+.youtube:hover {
+    background: #b72411;
+}
+
+
+/* UI X */
+
+.team .team-member {
+    margin: 20px auto;
+    background: #fff;
+}
+
+.team .img-container {
+    position: relative;
+}
+
+.team .img-container .img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.team .team-member:hover .img-container .img-hover {
+    opacity: 1;
+}
+
+.team .img-container .brand-bg {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.team .brand-bg a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.team .img-container .brand-bg a i {
+    margin: 0 2px;
+}
+
+.team .team-details {
+    padding: 10px 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.team .team-details h4 {
+    transition: all 0.3s ease;
+}
+
+.team .team-details .deg,
+.team .team-details p {
+    transition: all 0.3s ease;
+}
+
+.team .team-details .deg {
+    display: block;
+    color: #aaa;
+}
+
+.team .team-member:hover .team-details {
+    border-top: 0px !important;
+    background: #32c8de;
+}
+
+.team .team-member:hover .team-details h4 {
+    color: #fff;
+}
+
+.team .team-member:hover .team-details .deg,
+.team .team-member:hover .team-details p {
+    color: #fff;
+}
