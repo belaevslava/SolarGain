@@ -1,1 +1,0 @@
-<h2>That is body of index page!</h2>

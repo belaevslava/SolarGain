@@ -31,7 +31,7 @@ $(document).ready(function() {
 		offsetSections: false,
 		resetSliders: false,
 		fadingEffect: false,
-		normalScrollElements: '#element1, .element2',
+		normalScrollElements: '',
 		scrollOverflow: false,
 		scrollOverflowReset: false,
 		scrollOverflowOptions: null,
@@ -46,12 +46,12 @@ $(document).ready(function() {
 
 		//Design
 		controlArrows: true,
-		verticalCentered: true,
+		verticalCentered: false,
 		sectionsColor : ['#fff', '#fff'],
 		paddingTop: '0',
 		paddingBottom: '0',
 		fixedElements: '#header, .footer',
-		responsiveWidth: 0,
+		responsiveWidth: 992,
 		responsiveHeight: 0,
 		responsiveSlides: false,
 		parallax: false,
@@ -64,8 +64,10 @@ $(document).ready(function() {
 		lazyLoading: true,
 
 		//events
-		onLeave: function(index, nextIndex, direction){},
-		afterLoad: function(anchorLink, index){},
+		onLeave: function(index, nextIndex, direction){
+		},
+		afterLoad: function(anchorLink, index){
+		},
 		afterRender: function(){},
 		afterResize: function(){},
 		afterResponsive: function(isResponsive){},

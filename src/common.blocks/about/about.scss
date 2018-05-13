@@ -1,0 +1,21 @@
+.about {
+  position: relative;
+  .figure-img {
+    height: 100px;
+  }
+}
+.about__coin {
+  width: 60px;
+  height: 60px;
+}
+.about__coin--big {
+  width: 80px;
+  height: 80px;
+}
+.about__particle-effect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

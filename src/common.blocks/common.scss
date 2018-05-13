@@ -1,5 +1,16 @@
+@import "page-header";
+@import "who-we-are/who-we-are";
+@import "about/about";
+@import "partnerships/partnerships";
+@import "team/team";
+@import "media/media";
+@import "contacts/contacts";
+@import "page-footer/page-footer";
+
 .fp-controlArrow.fp-prev {
 	border-right-color: rgba(0,0,0,.1);
+	margin-left: -100px;
 }.fp-controlArrow.fp-next {
 	border-left-color: rgba(0,0,0,.1);
+	margin-right: -100px;
 }
