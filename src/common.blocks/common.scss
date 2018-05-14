@@ -1,6 +1,7 @@
-@import "page-header";
+@import "page-header/page-header";
 @import "who-we-are/who-we-are";
 @import "about/about";
+@import "features/features";
 @import "partnerships/partnerships";
 @import "team/team";
 @import "media/media";
@@ -10,7 +11,19 @@
 .fp-controlArrow.fp-prev {
 	border-right-color: rgba(0,0,0,.1);
 	margin-left: -100px;
-}.fp-controlArrow.fp-next {
+}
+.fp-controlArrow.fp-next {
 	border-left-color: rgba(0,0,0,.1);
 	margin-right: -100px;
+}
+.fab,
+.fas {
+	vertical-align: middle;
+	margin-right: .5rem;
+}
+
+@media (max-width: 991px) {
+	.fp-section {
+		height: initial!important;
+	}
 }

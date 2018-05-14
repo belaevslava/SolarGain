@@ -96,7 +96,7 @@ gulp.task('style:build', function () {
 gulp.task('image:build', function () {
     gulp.src(path.src.images)
         .pipe(plumber())
-        .pipe(image())
+        //.pipe(image())
         .pipe(gulp.dest(path.build.images))
         .pipe(reload({stream: true}));
 });

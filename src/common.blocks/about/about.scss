@@ -1,7 +1,6 @@
 .about {
-  position: relative;
-  .figure-img {
-    height: 100px;
+  .section-container {
+    z-index: 1;
   }
 }
 .about__coin {
