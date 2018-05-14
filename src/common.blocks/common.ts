@@ -3,7 +3,7 @@ $(document).ready(function() {
 		//Navigation
 		menu: '.page-navbar',
 		lockAnchors: false,
-		anchors:['who-we-are', 'about', 'partnerships', 'media', 'team', 'contacts'],
+		anchors:['who-we-are', 'about', 'features', 'partnerships', 'media', 'team', 'contacts'],
 		navigation: true,
 		navigationPosition: 'right',
 		navigationTooltips: ['', '', '', '', '', '', '',],
