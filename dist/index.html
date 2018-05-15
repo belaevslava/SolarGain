@@ -47,7 +47,7 @@
 </head>
 
 <body class="pt-5">
-    <div class="fixed-bg" style="background-image: url(common.blocks/who-we-are/who-we-are__bg-1.jpg);"></div>
+    <div class="fixed-bg" style="background-image: url(common.blocks/who-we-are/who-we-are__bg-2.jpg);"></div>
     <!-- Page header -->
 <header class="page-header fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -468,13 +468,13 @@
             <div class="row">
                 <!-- Grid column -->
                 <div class="col-lg-8">
-                    <div class="card-body form">
+                    <form action="" class="card-body form" id="contact-form" data-send-to="belaevslava@gmail.com">
                         <!-- Grid row -->
                         <div class="row">
                             <!-- Grid column -->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="form-contact-name" class="form-control">
+                                    <input type="text" name="name" required id="form-contact-name" class="form-control">
                                     <label for="form-contact-name" class="">Your name</label>
                                 </div>
                             </div>
@@ -482,7 +482,7 @@
                             <!-- Grid column -->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="form-contact-email" class="form-control">
+                                    <input type="email" name="email" id="form-contact-email" class="form-control">
                                     <label for="form-contact-email" class="">Your email</label>
                                 </div>
                             </div>
@@ -494,7 +494,7 @@
                             <!-- Grid column -->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="form-contact-phone" class="form-control">
+                                    <input type="tel" name="phone" id="form-contact-phone" class="form-control">
                                     <label for="form-contact-phone" class="">Your phone</label>
                                 </div>
                             </div>
@@ -502,7 +502,7 @@
                             <!-- Grid column -->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="form-contact-company" class="form-control">
+                                    <input type="text" name="companyName" id="form-contact-company" class="form-control">
                                     <label for="form-contact-company" class="">Your company</label>
                                 </div>
                             </div>
@@ -514,7 +514,7 @@
                             <!-- Grid column -->
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
-                                    <textarea type="text" id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
+                                    <textarea type="text" name="message" id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
                                     <label for="form-contact-message">Your message</label>
                                     <button type="sumbit" class="btn btn-primary btn-lg">
                                         Send
@@ -524,7 +524,7 @@
                             <!-- Grid column -->
                         </div>
                         <!-- Grid row -->
-                    </div>
+                    </form>
                 </div>
                 <!-- Grid column -->
                 <!-- Grid column -->
@@ -589,11 +589,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
     <!-- Particle JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+    <!-- SendMail from HTML -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <!-- AOS Animations -->
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>-->
     <!-- Common App scripts -->
     <script src="common.blocks/common.js"></script>
     <script src="common.blocks/about/about.js"></script>
+    <script src="common.blocks/contacts/contacts.js"></script>
 </body>
 
 </html>

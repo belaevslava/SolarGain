@@ -12,13 +12,13 @@
             <div class="row">
                 <!-- Grid column -->
                 <div class="col-lg-8">
-                    <div class="card-body form">
+                    <form action="" class="card-body form" id="contact-form" data-send-to="belaevslava@gmail.com">
                         <!-- Grid row -->
                         <div class="row">
                             <!-- Grid column -->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="form-contact-name" class="form-control">
+                                    <input type="text" name="name" required id="form-contact-name" class="form-control">
                                     <label for="form-contact-name" class="">Your name</label>
                                 </div>
                             </div>
@@ -26,7 +26,7 @@
                             <!-- Grid column -->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="form-contact-email" class="form-control">
+                                    <input type="email" name="email" id="form-contact-email" class="form-control">
                                     <label for="form-contact-email" class="">Your email</label>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@
                             <!-- Grid column -->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="form-contact-phone" class="form-control">
+                                    <input type="tel" name="phone" id="form-contact-phone" class="form-control">
                                     <label for="form-contact-phone" class="">Your phone</label>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                             <!-- Grid column -->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="form-contact-company" class="form-control">
+                                    <input type="text" name="companyName" id="form-contact-company" class="form-control">
                                     <label for="form-contact-company" class="">Your company</label>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@
                             <!-- Grid column -->
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
-                                    <textarea type="text" id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
+                                    <textarea type="text" name="message" id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
                                     <label for="form-contact-message">Your message</label>
                                     <button type="sumbit" class="btn btn-primary btn-lg">
                                         Send
@@ -68,7 +68,7 @@
                             <!-- Grid column -->
                         </div>
                         <!-- Grid row -->
-                    </div>
+                    </form>
                 </div>
                 <!-- Grid column -->
                 <!-- Grid column -->
