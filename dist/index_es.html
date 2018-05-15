@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css" />
     <!-- FancyApp -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <!-- Slick slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
     <!-- AOS Animations -->
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css" />-->
     <!-- Common Styles -->
@@ -32,9 +35,19 @@
     <link rel="stylesheet" href="common.blocks/team/team.css">
     <link rel="stylesheet" href="common.blocks/contacts/contacts.css">
     <link rel="stylesheet" href="common.blocks/page-footer/page-footer.css">
+    <style>
+        body {
+            display: none;
+            background-image: url(common.blocks/preloader.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 50px;
+        }
+    </style>
 </head>
 
 <body class="pt-5">
+    <div class="fixed-bg" style="background-image: url(common.blocks/who-we-are/who-we-are__bg-1.jpg);"></div>
     <!-- Page header -->
 <header class="page-header fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -85,7 +98,7 @@
     </nav>
 </header>
 <!-- /Page header -->
-    <main id="fullpage" class="page-main container">
+    <main id="fullpage" class="page-main">
     	<!-- Section: Home -->
 <section class="section who-we-are d-flex align-items-center py-5">
 	<div class="section-container container text-center text-white">
@@ -570,6 +583,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
     <!-- Fullpage.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <!-- FancyApp -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
     <!-- Particle JS -->
