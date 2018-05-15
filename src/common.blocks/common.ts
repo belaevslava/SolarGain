@@ -76,7 +76,7 @@ $(document).ready(function() {
 	});
 
 	$('.list-of-media[data-slick]').slick({
-        slidesToShow: 3,
+        slidesToShow: 4,
         centerMode: true,
 		autoplay: true,
 		dots: true,
@@ -86,8 +86,8 @@ $(document).ready(function() {
                 settings: {
                     arrows: false,
                     centerMode: false,
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 3,
+                    slidesToScroll: 3
                 }
             },
             {
