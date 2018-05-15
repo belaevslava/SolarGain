@@ -47,7 +47,7 @@ $(document).ready(function() {
 		//Design
 		controlArrows: true,
 		verticalCentered: false,
-		sectionsColor : ['#fff', '#fff'],
+		sectionsColor : [],
 		paddingTop: '0',
 		paddingBottom: '0',
 		fixedElements: '#header, .footer',
@@ -101,4 +101,8 @@ $(document).ready(function() {
             }
         ]
 	});
+});
+
+$(window).on("load", function() {
+    $('body').fadeIn();
 });
