@@ -39,7 +39,7 @@
 <header class="page-header fixed-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="#who-we-are"><img src="common.blocks/who-we-are/who-we-are__SolarGain.svg" width="170" alt="SolarGain"></a>
+            <a class="navbar-brand" href="#who-we-are"><img src="common.blocks/page-header/page-header__SolarGain.svg" width="170" alt="SolarGain"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-3" aria-controls="navbarSupportedContent-3" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -72,12 +72,12 @@
                 <ul class="navbar-nav ml-auto nav-flex-icons">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <i class="fas fa-language"></i>Eng
+                            <i class="icon icon__lang-en"></i>Eng
                             </a>
                         <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item waves-effect waves-light" href="index.html"><img src="common.blocks/page-header/en.svg" alt="" class="page-header__lang-icon">English</a>
+                            <a class="dropdown-item waves-effect waves-light" href="index.html"><i class="icon icon__lang-en"></i>English</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item waves-effect waves-light" href="index_es.html"><img src="common.blocks/page-header/es.svg" alt="" class="page-header__lang-icon">Español</a>
+                            <a class="dropdown-item waves-effect waves-light" href="index_es.html"><i class="icon icon__lang-es"></i>Español</a>
                         </div>
                     </li>
                 </ul>
@@ -88,7 +88,7 @@
 <!-- /Page header -->
     <main id="fullpage" class="page-main container">
     	<!-- Section: Home -->
-<section class="section d-flex align-items-center py-5">
+<section class="section who-we-are d-flex align-items-center py-5">
 	<div class="section-container w-100">
 		<div class="row">
 			<div class="col-md-7">
@@ -242,36 +242,69 @@
             <h2 class="mb-3">Media</h2>
             <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </header>
-        <ul class="list-unstyled row">
-            <li class="col-lg-4 col-sm-6 mb-4">
-                <div class="card">
+        <ul class="list-of-media list-unstyled row" data-slick>
+            <li class="list-of-media__item">
+                <div class="card m-3">
                     <img src="common.blocks/media/media__CNN.svg" alt="" class="card-img">
                     <div class="card-body">
                         <h5 class="card-title">Cable News Network</h5>
                         <h6 class="card-subtitle mb-2 text-muted">American television news channel</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem, deleniti fugiat hic minima quo sed ut. Aliquid aspernatur eius, est id itaque molestias non quia ullam. At consequatur, est?</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem, deleniti fugiat hic minima quo sed ut.</p>
                         <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </li>
-            <li class="col-lg-4 col-sm-6 mb-4">
-                <div class="card">
+            <li class="list-of-media__item">
+                <div class="card m-3">
                     <img src="common.blocks/media/media__BBC.svg" alt="" class="card-img">
                     <div class="card-body">
                         <h5 class="card-title">BBC World Service</h5>
                         <h6 class="card-subtitle mb-2 text-muted">International radio broadcaster</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem, deleniti fugiat hic minima quo sed ut. Aliquid aspernatur eius, est id itaque molestias non quia ullam. At consequatur, est?</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem, deleniti fugiat hic minima quo sed ut.</p>
                         <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </li>
-            <li class="col-lg-4 col-sm-6 mb-4">
-                <div class="card">
+            <li class="list-of-media__item">
+                <div class="card m-3">
                     <img src="common.blocks/media/media__FOX.svg" alt="" class="card-img">
                     <div class="card-body">
                         <h5 class="card-title">Fox News</h5>
                         <h6 class="card-subtitle mb-2 text-muted">American television news channel</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem, deleniti fugiat hic minima quo sed ut. Aliquid aspernatur eius, est id itaque molestias non quia ullam. At consequatur, est?</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem, deleniti fugiat hic minima quo sed ut.</p>
+                        <a href="#" class="card-link">Read more</a>
+                    </div>
+                </div>
+            </li>
+            <li class="list-of-media__item">
+                <div class="card m-3">
+                    <img src="common.blocks/media/media__CNN.svg" alt="" class="card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Cable News Network</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">American television news channel</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem, deleniti fugiat hic minima quo sed ut.</p>
+                        <a href="#" class="card-link">Read more</a>
+                    </div>
+                </div>
+            </li>
+            <li class="list-of-media__item">
+                <div class="card m-3">
+                    <img src="common.blocks/media/media__BBC.svg" alt="" class="card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">BBC World Service</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">International radio broadcaster</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem, deleniti fugiat hic minima quo sed ut.</p>
+                        <a href="#" class="card-link">Read more</a>
+                    </div>
+                </div>
+            </li>
+            <li class="list-of-media__item">
+                <div class="card m-3">
+                    <img src="common.blocks/media/media__FOX.svg" alt="" class="card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Fox News</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">American television news channel</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem, deleniti fugiat hic minima quo sed ut.</p>
                         <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>

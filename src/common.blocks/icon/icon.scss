@@ -1,0 +1,13 @@
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 16px;
+  margin-right: .5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon__lang-en { background-image: url(icon/icon__lang-en.svg); }
+.icon__lang-es { background-image: url(icon/icon__lang-es.svg); }

@@ -74,4 +74,31 @@ $(document).ready(function() {
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
 		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
 	});
+
+	$('.list-of-media[data-slick]').slick({
+        slidesToShow: 3,
+        centerMode: true,
+		autoplay: true,
+		dots: true,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    arrows: false,
+                    centerMode: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+	});
 });
