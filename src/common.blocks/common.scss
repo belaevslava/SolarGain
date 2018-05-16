@@ -31,7 +31,7 @@
 
 
 .bg-light {
-	background-color: #fdfdf5!important;
+	background-color: #ECEFF1!important;
 	animation: animatedBgLight 1s ease infinite;
 }
 .card {
@@ -43,7 +43,7 @@
 }
 
 @keyframes animatedBgLight {
-	0% { background-color: #fdfdf5!important; }
+	0% { background-color: #ECEFF1!important; }
 	50% { background-color: #fff!important; }
 }
 
