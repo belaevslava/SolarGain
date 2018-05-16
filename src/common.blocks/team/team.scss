@@ -138,6 +138,8 @@
 
 .team .img-container {
     position: relative;
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
 }
 
 .team .img-container .img-hover {
@@ -197,7 +199,8 @@
 
 .team .team-member:hover .team-details {
     border-top: 0 !important;
-    background: #212121;
+    background: #ffa000;
+    border-radius: 0 0 3px 3px;
 }
 
 .team .team-member:hover .team-details h4 {
