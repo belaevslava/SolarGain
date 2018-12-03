@@ -1,7 +1,41 @@
 {
-  "name": "bingo",
+  "name": "solargain",
   "version": "1.0.0",
-  "description": "",
+  "description": "Landing for «SolarGain»",
+  "homepage": "https://belaevslava.github.io/solargain/dist/index.html",
+  "previews": {
+    "directory": "previews",
+    "images": [
+      {
+        "path": "who_we_are.png",
+        "title": "Who We Are"
+      },
+      {
+        "path": "what_is_SolarCoin.png",
+        "title": "What is SolarCoin"
+      },
+      {
+        "path": "features.png",
+        "title": "Features"
+      },
+      {
+        "path": "partnerships.png",
+        "title": "Partnerships"
+      },
+      {
+        "path": "media.png",
+        "title": "Media"
+      },
+      {
+        "path": "team.png",
+        "title": "Team"
+      },
+      {
+        "path": "contacts.png",
+        "title": "Contacts"
+      }
+    ]
+  },
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
