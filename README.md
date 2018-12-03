@@ -1,7 +1,7 @@
 ## Gray Style
-https://belaevslava.github.io/SolarGain/dist/index.html
+https://belaevslava.github.io/solargain/dist_style_gray/index.html
 ## Yellow Style
-https://belaevslava.github.io/SolarGain/dist_style_yellow/index.html
+https://belaevslava.github.io/solargain/dist/index.html
 
 ## Kit includes:
 - BEM methodology (https://bem.info/methodology/)
