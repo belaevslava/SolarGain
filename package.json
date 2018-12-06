@@ -5,6 +5,9 @@
   "homepage": "https://belaevslava.github.io/solargain/dist/index.html",
   "previews": {
     "directory": "previews",
+    "main": {
+      "path": "/thumbs/who_we_are.png",
+    },
     "images": [
       {
         "path": "who_we_are.png",
